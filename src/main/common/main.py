@@ -387,13 +387,13 @@ dirtElement = elements.registerElement("elements/Environment/blocks/Dirt", 3)
 coarseDirtElement = elements.registerElement("elements/Environment/blocks/Coarse_Dirt", 3)
 coarseGrassElement = elements.registerElement("elements/Environment/blocks/Coarse_Grass", 3)
 cobbleElement = elements.registerElement("elements/Environment/blocks/cobble", 3)
-brickElement = elements.registerElement("elements\Environment\Blocks/brick_wall", 3)
+brickElement = elements.registerElement("elements/Environment/Blocks/brick_wall", 3)
 cobbleMossyElement = elements.registerElement("elements/Environment/blocks/cobble_mossy", 3)
 leverDeco = elements.registerCallableAnimatedElement(3)
-poppyDeco = elements.registerElement("elements\Environment\decoration\Plants\poppy", 3)
-cyanFlowerDeco = elements.registerElement("elements\Environment\decoration\Plants\cyan_flower", 3)
-yellowFlowerDeco = elements.registerElement("elements\Environment\decoration\Plants\yellow_flower", 3)
-pinkFlowerDeco = elements.registerElement("elements\Environment\decoration\Plants\pink_flower", 3)
+poppyDeco = elements.registerElement("elements/Environment/decoration/Plants/poppy", 3)
+cyanFlowerDeco = elements.registerElement("elements/Environment/decoration/Plants/cyan_flower", 3)
+yellowFlowerDeco = elements.registerElement("elements/Environment/decoration/Plants/yellow_flower", 3)
+pinkFlowerDeco = elements.registerElement("elements/Environment/decoration/Plants/pink_flower", 3)
 grassDeco = elements.registerElement("elements/Environment/decoration/Plants/grass", 3)
 torchLeftDeco = elements.registerAnimatedElement(3)
 torchRightDeco = elements.registerAnimatedElement(3)
@@ -407,44 +407,44 @@ shieldDeco = elements.registerElement("elements/Environment/decoration/Shields/S
 shieldDamagedDeco = elements.registerElement("elements/Environment/decoration/Shields/Shield1(harmed)", 3)
 bannerRedDeco = elements.registerElement("elements/Environment/decoration/Banners/Banner1", 5)
 bannerBlueDeco = elements.registerElement("elements/Environment/decoration/Banners/Banner2", 5)
-wallCarpet = elements.registerElement("elements\Environment\decoration\Banners\wall_carpet", 6)
+wallCarpet = elements.registerElement("elements/Environment/decoration/Banners/wall_carpet", 6)
 yellowBaner = elements.registerCallableAnimatedElement(5)
 door0OpenLargeElement = elements.registerElement("elements/doors/door_0_open", 5)
 door0ClosedLargeElement = elements.registerElement("elements/doors/door_0_closed", 5)
 door2OpenLargeElement = elements.registerElement("elements/doors/door_2_open", 5)
 door2ClosedLargeElement = elements.registerElement("elements/doors/door_2_closed", 5)
-darkCobble = elements.registerElement("elements\Environment\Blocks\Cobble(Backround)", 3)
-darkMossyCobble = elements.registerElement("elements\Environment\Blocks\Mossy_cobble(Backround)", 3)
-calcite = elements.registerElement("elements\Environment\Blocks\Calcite", 3)
-gravel = elements.registerElement("elements\Environment\Blocks\Gravel", 3)
-grass_end = elements.registerElement("elements\Environment\Blocks\grass_side", 3)
-sky = elements.registerElement("elements\Environment\Sky\Sky", 6)
-cloud = elements.registerElement("elements\Environment\Sky\cloud", 1.5)
-cobbleStairs = elements.registerElement("elements\Environment\Blocks\Cobble_stairs", 3)
-bush = elements.registerElement("elements\Environment\decoration\Plants\Small_bush", 3)
+darkCobble = elements.registerElement("elements/Environment/Blocks/Cobble(Backround)", 3)
+darkMossyCobble = elements.registerElement("elements/Environment/Blocks/Mossy_cobble(Backround)", 3)
+calcite = elements.registerElement("elements/Environment/Blocks/Calcite", 3)
+gravel = elements.registerElement("elements/Environment/Blocks/Gravel", 3)
+grass_end = elements.registerElement("elements/Environment/Blocks/grass_side", 3)
+sky = elements.registerElement("elements/Environment/Sky/Sky", 6)
+cloud = elements.registerElement("elements/Environment/Sky/cloud", 1.5)
+cobbleStairs = elements.registerElement("elements/Environment/Blocks/Cobble_stairs", 3)
+bush = elements.registerElement("elements/Environment/decoration/Plants/Small_bush", 3)
 explosion = elements.registerAnimatedElement(16)
-explosive = elements.registerElement("elements\Environment\Blocks\TNT", 3)
-light_dark_cobble = elements.registerElement("elements\Environment\Blocks\light_dark_cobble", 3)
-cobble_pedestal_inactive = elements.registerElement("elements\Environment\Blocks\Pedestals\cobble_pedestal", 3)
+explosive = elements.registerElement("elements/Environment/Blocks/TNT", 3)
+light_dark_cobble = elements.registerElement("elements/Environment/Blocks/light_dark_cobble", 3)
+cobble_pedestal_inactive = elements.registerElement("elements/Environment/Blocks/Pedestals/cobble_pedestal", 3)
 wooden_plank = elements.registerElement("elements/Environment/Blocks/wooden_plank", 3)
 cobbleOffsetElement = elements.registerElement("elements/Environment/blocks/cobble", 3)
 cobbleY16Element = elements.registerElement("elements/Environment/blocks/cobble", 3)
 cobbleY32Element = elements.registerElement("elements/Environment/blocks/cobble", 3)
 cobbleY64Element = elements.registerElement("elements/Environment/blocks/cobble", 3)
 cobbleY80Element = elements.registerElement("elements/Environment/blocks/cobble", 3)
-towerWallBottom = elements.registerElement("elements\Environment\Blocks/tower_wall", 3)
-towerWall = elements.registerElement("elements\Environment\Blocks/tower_wall2", 3)
-towerWallTop= elements.registerElement("elements\Environment\Blocks/tower_wall3", 3)
+towerWallBottom = elements.registerElement("elements/Environment/Blocks/tower_wall", 3)
+towerWall = elements.registerElement("elements/Environment/Blocks/tower_wall2", 3)
+towerWallTop= elements.registerElement("elements/Environment/Blocks/tower_wall3", 3)
 towerWallLong = elements.registerElement("elements/Environment/Blocks/tower_wall4", 3)
 towerTop1 = elements.registerElement("elements/Environment/Blocks/tower_top_1", 3)
 towerTop2 = elements.registerElement("elements/Environment/Blocks/tower_top_2", 3)
 towerWallWindow = elements.registerElement("elements/Environment/Blocks/tower_window", 3)
-tic_tac_toe_board = elements.registerElement("elements\Environment\TicTacToe\TicTacToe", 3)
-cobble_pillar_bottom = elements.registerElement("elements\Environment\Blocks\Cobblepillars\Cobblepillar(part=bottom)", 3)
-cobble_pillar_middle = elements.registerElement("elements\Environment\Blocks\Cobblepillars\Cobblepillar(part=middle)", 3)
-cobble_pillar_middle_broken = elements.registerElement("elements\Environment\Blocks\Cobblepillars\CobblepillarBroken(part=middle)", 3)
-cobble_pillar_top_broken = elements.registerElement("elements\Environment\Blocks\Cobblepillars\CobblepillarBroken(part=top)", 3)
-cobble_pillar_top = elements.registerElement("elements\Environment\Blocks\Cobblepillars\Cobblepillar(part=top)", 3)
+tic_tac_toe_board = elements.registerElement("elements/Environment/TicTacToe/TicTacToe", 3)
+cobble_pillar_bottom = elements.registerElement("elements/Environment/Blocks/Cobblepillars/Cobblepillar(part=bottom)", 3)
+cobble_pillar_middle = elements.registerElement("elements/Environment/Blocks/Cobblepillars/Cobblepillar(part=middle)", 3)
+cobble_pillar_middle_broken = elements.registerElement("elements/Environment/Blocks/Cobblepillars/CobblepillarBroken(part=middle)", 3)
+cobble_pillar_top_broken = elements.registerElement("elements/Environment/Blocks/Cobblepillars/CobblepillarBroken(part=top)", 3)
+cobble_pillar_top = elements.registerElement("elements/Environment/Blocks/Cobblepillars/Cobblepillar(part=top)", 3)
 hole = elements.registerInvisibleElement()
 hot_air = elements.registerAnimatedElement(3)
 npc = elements.registerAnimatedElement(8) # 37/6
@@ -452,19 +452,19 @@ waterFluid = elements.registerAnimatedElement(3)
 waterWavingFluid = elements.registerAnimatedElement(3)
 door0Current = door0ClosedLargeElement
 door2Current = door2ClosedLargeElement
-poppy = items.registerItem("poppy", "elements\Environment\decoration\Plants\poppy")
-torch = items.registerItem("torch", "elements\Environment\decoration\Torches/Torch")
+poppy = items.registerItem("poppy", "elements/Environment/decoration/Plants/poppy")
+torch = items.registerItem("torch", "elements/Environment/decoration/Torches/Torch")
 
 creepy_sound = pygame.mixer.Sound("src/main/assets/sounds/scary.mp3")
 creepy_sound.set_volume(0.2)
 
-health = pygame.image.load("src\main/assets/textures\elements\gui\player\Heart(full).png")
+health = pygame.image.load("src/main/assets/textures/elements/gui/player/Heart(full).png")
 healthScaled = pygame.transform.scale(health, (70, 70))
 
-halfHealth = pygame.image.load("src\main/assets/textures\elements\gui\player\Heart(half).png")
+halfHealth = pygame.image.load("src/main/assets/textures/elements/gui/player/Heart(half).png")
 halfHealthScaled = pygame.transform.scale(halfHealth, (70, 70))
 
-emptyHealth = pygame.image.load("src\main/assets/textures/elements\gui\player\Heart(empty).png")
+emptyHealth = pygame.image.load("src/main/assets/textures/elements/gui/player/Heart(empty).png")
 emptyHealthScaled = pygame.transform.scale(emptyHealth, (70, 70))
 n = 0
 npcCurrent = animations.npcIdle
@@ -472,7 +472,7 @@ npcTalking = False
 
 debugMenu = gui.registerGui(70, 100, 300, 800, False)
 
-font = pygame.font.Font('src\main/assets/fonts\joystixmonospaceregular.otf', 25)
+font = pygame.font.Font('src/main/assets/fonts/joystixmonospaceregular.otf', 25)
 
 def renderText(entry, language):
     debugMenuText = font.render(translatableComponent("text.debug_menu", language), True, DARK_ORANGE)
@@ -503,7 +503,7 @@ pedestalSelectionPos = 0
 icon = pygame.image.load("src/main/assets/textures/elements/gui/icon/icon_32x.png")
 
 platformX, platformY = 1441, -290
-platform = pygame.image.load("src\main/assets/textures\elements\Environment\Blocks\platform.png")
+platform = pygame.image.load("src/main/assets/textures/elements/Environment/Blocks/platform.png")
 platform = pygame.transform.scale(platform, (platform.get_width() * 3, platform.get_height() * 3))
 platformMoving = False
 
@@ -519,7 +519,7 @@ chat = gui.registerChat(6, 30, BLACK, BLACK, BLACK, BLACK, 170, 110, 100, 800, 6
 chat.inputLocked = True
 exitChat = gui.registerExitButton(85, 80)
 exitDebugMenu = gui.registerExitButton(40, 75)
-continueNpcTalk = gui.registerExitButton(2950, 650, "gui\speech_bubble_button")
+continueNpcTalk = gui.registerExitButton(2950, 650, "gui/speech_bubble_button")
 
 #tutorial working
 Tut_welcome = True
@@ -578,7 +578,7 @@ def resetVars():
     leverTimer = 0
     leverPressed = 0
 
-tutorialPanel = infoPanel("src\main/assets/textures\elements\gui/info_panel.png", 8, 15)
+tutorialPanel = infoPanel("src/main/assets/textures/elements/gui/info_panel.png", 8, 15)
 
 tut1_map = [[00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00],
             [00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00],
@@ -693,11 +693,11 @@ loseTimer = 0
 selectedXPos = 0
 selectedYPos = 0
 allowTicTacToe = False
-tttCircle = pygame.image.load("src\main/assets/textures\elements\Environment\TicTacToe\TicTacToeCircle.png")
+tttCircle = pygame.image.load("src/main/assets/textures/elements/Environment/TicTacToe/TicTacToeCircle.png")
 tttCircle = pygame.transform.scale(tttCircle, (96, 96))
-tttCross = pygame.image.load("src\main/assets/textures\elements\Environment\TicTacToe\TicTacToeCross.png")
+tttCross = pygame.image.load("src/main/assets/textures/elements/Environment/TicTacToe/TicTacToeCross.png")
 tttCross = pygame.transform.scale(tttCross, (96, 96))
-tttSelection = pygame.image.load("src\main/assets/textures\elements\Environment\TicTacToe\TicTacToeSelection.png")
+tttSelection = pygame.image.load("src/main/assets/textures/elements/Environment/TicTacToe/TicTacToeSelection.png")
 tttSelection = pygame.transform.scale(tttSelection, (96, 96))
 
 def ticTacToe(screen, xPos, yPos):
@@ -1421,7 +1421,7 @@ def Start(language):
     quitButton = gui.registerButton("button", 6.0)
     clock = pygame.time.Clock()
     resetVars()
-    pygame.mixer.music.load("src\main/assets\sounds/tests/bg_music2.mp3")
+    pygame.mixer.music.load("src/main/assets/sounds/tests/bg_music2.mp3")
     pygame.mixer.music.play(-1)
     pygame.mixer.music.set_volume(0.1)
     while True:
@@ -1505,7 +1505,7 @@ def Tut1(language):
     walkingValue = 0
     pickUpValue = 0
     Player.rect.x, Player.rect.y = 1740, 1400    
-    pygame.mixer.music.load("src\main/assets\sounds\Adventure-320bit.mp3")
+    pygame.mixer.music.load("src/main/assets/sounds/Adventure-320bit.mp3")
     pygame.mixer.music.play(-1)
     pygame.mixer.music.set_volume(0.2)
     FONT = pygame.font.SysFont("Sans", 20)
@@ -1633,7 +1633,7 @@ def Tut1(language):
         Player.editingMode(world, tut1_map)
 
         # Render the map to the screen
-        speech_bubble = infoPanel("src\main/assets/textures\elements\gui\speech_bubble.png", 5.1, 25)
+        speech_bubble = infoPanel("src/main/assets/textures/elements/gui/speech_bubble.png", 5.1, 25)
         if npcTalking == True:
             speech_bubble.render(world, 3400, 1150, translatableComponent('text.tutorial.item3', language), translatableComponent('text.tutorial.item4', language), translatableComponent('text.tutorial.item5', language), translatableComponent('text.tutorial.item6', language), translatableComponent('text.tutorial.item7', language), "", "", "", "", "", "", "", BLACK, -25, -50)
 
@@ -1709,12 +1709,12 @@ def Tut2(language):
     idleValue = 0
     walkingValue = 0
     Player.rect.x, Player.rect.y = 900, 500
-    pygame.mixer.music.load("src\main/assets\sounds\MysteriousGameMusic.mp3")
+    pygame.mixer.music.load("src/main/assets/sounds/MysteriousGameMusic.mp3")
     pygame.mixer.music.play(1000)
     pygame.mixer.music.set_volume(0.1)
     
     Player.world = "tut2"
-    poppyAlert = notification("src\main/assets/textures\elements\gui/notification_bar.png", "src\main/assets/textures\elements\Environment\decoration\Plants\poppy.png", 3, screen.get_width(), 200, 100)
+    poppyAlert = notification("src/main/assets/textures/elements/gui/notification_bar.png", "src/main/assets/textures/elements/Environment/decoration/Plants/poppy.png", 3, screen.get_width(), 200, 100)
     resetVars()
     while True: # Render background
         world.fill(DARK_GRAY)
@@ -2160,7 +2160,7 @@ def Credits(language):
     Player.world = "Credits"
     clock = pygame.time.Clock()
     resetVars()
-    pygame.mixer.music.load("src\main/assets\sounds/tests/bg_music2.mp3")
+    pygame.mixer.music.load("src/main/assets/sounds/tests/bg_music2.mp3")
     pygame.mixer.music.play(-1)
     pygame.mixer.music.set_volume(0.1)
     #This exists because timers and me is lazy
