@@ -1,11 +1,11 @@
-import pygame
+stopTimer import pygame
 
 pygame.init()
 class notification:
     def __init__(self, barPath, iconPath, scale, x, y, stopTimer):
         self.x, self.y = x, y
         self.timer = 0
-        self.font = pygame.font.Font("src\main/assets/fonts\joystixmonospaceregular.otf", 25)
+        self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", 25)
         self.stopTimer = stopTimer
         self.finished = False
         self.notification_bar = pygame.image.load(barPath)
@@ -41,7 +41,7 @@ class notification:
 class infoPanel:
     def __init__(self, panelPath, scale, fontSize):
         self.visible = True
-        self.font = pygame.font.Font("src\main/assets/fonts\joystixmonospaceregular.otf", fontSize)
+        self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", fontSize)
         self.panel = pygame.image.load(panelPath)
         self.scaledPanel = pygame.transform.scale(self.panel, (self.panel.get_width() * scale, self.panel.get_height() * scale))
 
@@ -76,7 +76,7 @@ class infoPanel:
 class infoPanelIcon:
     def __init__(self, panelPath, iconPath, scale):
         self.visible = True
-        self.font = pygame.font.Font("src\main/assets/fonts\joystixmonospaceregular.otf", 25)
+        self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", 25)
         self.panel = pygame.image.load(panelPath)
         self.scaledPanel = pygame.transform.scale(self.panel, (self.panel.get_width() * scale, self.panel.get_height() * scale))
         self.icon = pygame.image.load(iconPath)
@@ -115,7 +115,7 @@ class infoPanelAnimatedIcon:
         self.visible = True
         self.scale = scale
         self.frame = 0
-        self.font = pygame.font.Font("src\main/assets/fonts\joystixmonospaceregular.otf", 25)
+        self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", 25)
         self.panel = pygame.image.load(panelPath)
         self.scaledPanel = pygame.transform.scale(self.panel, (self.panel.get_width() * scale, self.panel.get_height() * scale))
 

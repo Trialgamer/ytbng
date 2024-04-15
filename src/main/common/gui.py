@@ -162,7 +162,7 @@ class registerButton():
  
 class registerText():
     def __init__(self, fontSize, displayText, color, x, y):
-        self.font = pygame.font.Font("src\main/assets/fonts/joystixmonospaceregular.otf", fontSize)
+        self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", fontSize)
         self.text = self.font.render(displayText, True, color)
         self.rect = self.text.get_rect()
         self.rect.center = (x, y)
@@ -172,7 +172,7 @@ class registerText():
     
 class registerVanishedText():
     def __init__(self, fontSize, colorVanished, color1, color2, color3, color4, color5):
-         self.font = pygame.font.Font("src\main/assets/fonts/joystixmonospaceregular.otf", fontSize)
+         self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", fontSize)
          self.vanishCounter = 0
          self.colorVanished = colorVanished
          self.color1 = color1
@@ -236,7 +236,7 @@ class registerChat():
         self.selected = True
         self.frame = pygame.Rect((frameX, frameY), (frameWidth, frameHeight))
         self.chatBox = pygame.Rect((chatBoxX, chatBoxY), (chatBoxWidth, chatBoxHeight))
-        self.font = pygame.font.Font("src\main/assets/fonts/joystixmonospaceregular.otf", fontSize)
+        self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", fontSize)
         self.textColor = textColor
         self.frameColor = frameColor
         self.chatBoxColor = chatBoxColor
@@ -330,11 +330,11 @@ class registerExitButton():
         self.y = y
         self.clicked = False
         if texturePath == None:
-            self.texture = pygame.image.load("src\main/assets/textures\elements\gui\exit_button.png")
-            self.textureSelected = pygame.image.load("src\main/assets/textures\elements\gui\exit_button_selected.png")
+            self.texture = pygame.image.load("src/main/assets/textures/elements/gui/exit_button.png")
+            self.textureSelected = pygame.image.load("src/main/assets/textures/elements/gui/exit_button_selected.png")
         else:
-            self.texture = pygame.image.load("src\main/assets/textures\elements/" + texturePath + ".png")
-            self.textureSelected = pygame.image.load("src\main/assets/textures\elements/" + texturePath + ".png")
+            self.texture = pygame.image.load("src/main/assets/textures/elements/" + texturePath + ".png")
+            self.textureSelected = pygame.image.load("src/main/assets/textures/elements/" + texturePath + ".png")
         self.textureScaled = pygame.transform.scale(self.texture, (self.texture.get_width() * 3.5, self.texture.get_height() * 3.5))
         self.textureSelectedScaled = pygame.transform.scale(self.textureSelected, (self.textureSelected.get_width() * 3.5, self.textureSelected.get_height() * 3.5))
         self.rect = pygame.Rect((self.x, self.y), (self.texture.get_width() * 3.5, self.texture.get_height() * 3.5))
@@ -360,7 +360,7 @@ class registerTextBox():
         self.inputLocked = False
         self.selected = True
         self.chatBox = pygame.Rect((textBoxX, textBoxY), (textBoxWidth, textBoxHeight))
-        self.font = pygame.font.Font("src\main/assets/fonts/joystixmonospaceregular.otf", fontSize)
+        self.font = pygame.font.Font("src/main/assets/fonts/joystixmonospaceregular.otf", fontSize)
         self.textColor = textColor
         self.chatBoxColor = chatBoxColor
         self.renderMarker = 0

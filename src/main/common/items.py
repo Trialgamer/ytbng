@@ -12,7 +12,7 @@ class registerItem():
         self.xNewNew, self.yNewNew = 0, 0
         self.pickingUp = False
         finishedPickup = False
-        self.texture = pygame.image.load("src\main/assets/textures/" + texturePath + ".png")
+        self.texture = pygame.image.load("src/main/assets/textures/" + texturePath + ".png")
         self.texture = pygame.transform.scale(self.texture, (self.texture.get_width() * 2.5, self.texture.get_height() * 2.5))
     
     def drawItem(self, surface, player, x, y):
