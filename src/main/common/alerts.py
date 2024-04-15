@@ -1,4 +1,4 @@
-stopTimer import pygame
+import pygame
 
 pygame.init()
 class notification:
